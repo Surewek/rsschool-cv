@@ -1,36 +1,35 @@
-=====
 
 # Vitaly Vegera
 
-=====
 
-## Contacts:
 
-=====
+## Contacts
 
-## About me:
 
-=====
 
-## Skills:
+## About me
 
-=====
+
+
+## Skills
+
+
 
 ## Code example
 
-=====
+
 
 ## Complited and curre
 
-=====
+
 
 ## Experience
 
-=====
+
 
 ## Education
 
-=====
+
 
 ## Language level
 
