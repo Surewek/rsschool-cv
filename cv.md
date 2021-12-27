@@ -49,7 +49,7 @@ DNA to RNA Conversion
 ## Couses
 
 + Completed HTML Academy simulators
-+ Completely read the tutorial https://learn.javascript.ru/
++ Completely read the tutorial (https://learn.javascript.ru/)
 + RS Schools Course «JavaScript/Front-end. Stage 0» 
 
 ## Experience
