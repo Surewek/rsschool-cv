@@ -5,7 +5,7 @@
 
 + **Discord**:  Surewek#7395
 + **Email**: Surewek@gmail.com
-+ **GitHub**: [https://github.com/Surewek][https://github.com/Surewek]
++ **GitHub**: https://github.com/Surewek
 
 ## About me
 
@@ -55,7 +55,7 @@ DNA to RNA Conversion
 ## Experience
 
 This CV is my starter project :)
-[https://github.com/Surewek/rsschool-cv.git][https://github.com/Surewek/rsschool-cv.git]
+https://github.com/Surewek/rsschool-cv.git
 
 ## Education
 
