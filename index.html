@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/raiden-favicon.ico">
+    
+
+    <title>Vitaly Vegera CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <nav>
+                <ul class="nav-list list">
+                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <section class="section profile-section" id="profile">
+                <div class="profile-side">
+                    <img class="avatar" src="./assets/img/avatar.jpg" width="405" height="405" alt="Vitaly avatar">
+                </div>
+                <div class="profile-side">
+                    <h1 class="name-title">Vitaly Vegera</h1>
+                    <p class="status">Student</p>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contacts-list list">
+                    <li class="contacts-item discord">Discord: Surewek#7395</li>
+                    <li class="contacts-item email">Email: Surewek@gmail.com</li>
+                    <li class="contacts-item github">GitHub: https://github.com/surewek</li>
+                </ul>
+            </section>
+            <section class="section" id="about-me">
+                <h2 class="section-title">About me</h2>
+                <p>I am a third year student of the Belarusian State University of Transport. I am 19 years old and I realized that I want to work in IT. My specialization is information transmission and distribution systems, and it is easy to guess that I am open to new knowledge. :)</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="main-skills-list list">
+                    <li class="main-skills-item">HTML</li>
+                    <li class="main-skills-item">CSS</li>
+                    <li class="main-skills-item">JavaScript</li>
+                    <li class="main-skills-item">Photoshop</li>
+                    <li class="main-skills-item">GitHub</li>
+                    <li class="main-skills-item">Visual Studio Code</li>
+                </ul>
+                <h3 class="subtitle">I also used the following technologies a little:</h3>
+                <ul class="little-skills-list list">
+                    <li class="little-skills-item">C, C++, C#, Java, PHP</li>
+                    <li class="little-skills-item">Visual Studio, IntelliJ IDEA, Notepad++</li>
+                    <li class="little-skills-item">Figma, Adobe Illustrator</li>
+                    <li class="little-skills-item">Blender, 3DS Max</li>
+                    <li class="little-skills-item">WordPress</li>
+                </ul>
+            </section>
+            <section class="section" id="code-example">
+                <h2 class="section-title">Code example</h2>
+                <p>Kata: DNA to RNA Conversion</p>
+                <p>Code:</p>
+            <pre class="code-text-exaple"><code>
+            function DNAtoRNA(dna) {
+                let rna
+                
+                rna = dna.replace(/T/g, 'U')
+                
+                return rna
+            }
+            </code></pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="courses-list list">
+                    <li class="courses-item">Completed HTML Academy simulators</li>
+                    <li class="courses-item">Completely read the tutorial (learn.javascript.ru)</li>
+                    <li class="courses-item">RS Schools Course «JavaScript/Front-end. Stage 0»(in progress)</li>
+                </ul>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <p>This <a class="cv-link" href="https://github.com/Surewek/rsschool-cv.git">CV</a> is my starter project :)</p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>3rd year student of the Belarusian State University of Transport</p>
+                <p>Speciality: Automation, telemechanics and communication for railway transport (information transmission systems)</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="languages-list list">
+                    <li class="languages-item english">English - A1</li>
+                    <li class="languages-item russian">Russian - Native speaker</li>
+                    <li class="languages-item belarussian">Belarussian - Native speaker</li>
+                    <li class="languages-item japanise">Japanise - Basic</li>
+                    <li class="languages-item german">German - Basic</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <ul class="footer-list list">
+                <li class="footer-item">2022</li>
+                <li class="footer-item">
+                    <a class="footer-link" href="https://github.com/surewek">
+                        Let's work together! 
+                    </a> 
+                </li>
+                <li class="footer-item">
+                    <a href="https://rs.school/js/">
+                        <img class="rs-logo" src="./assets/svg/rs_school_js.svg" width="100" height="50" alt="rsschool logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
