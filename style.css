@@ -1,0 +1,297 @@
+@font-face {
+    font-family: DidactGothic-Regular;
+     src: url("assets/fonts/DidactGothic-Regular.ttf");
+}
+
+@font-face {
+    font-family: SpecialElite-Regular;
+     src: url("assets/fonts/SpecialElite-Regular.ttf");
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: DidactGothic-Regular;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container,
+.header-contaiter,
+.footer-contaiter {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+.list {
+    list-style: none;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.nav-item {
+    border-left: 1px solid whitesmoke;
+}
+
+
+
+.nav-item:first-child {
+    border-left: none;
+}
+
+.nav-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 1.25s;
+}
+
+.nav-link:hover {
+    color: rgb(170, 202, 83);
+    text-shadow: #FC0 2px 0 8px;
+}
+
+.code-text-exaple {
+    background-color: Lavender;
+}
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+
+    width: 60%;
+    padding: 20px; 
+    margin-bottom: 2%;
+    border-left: 8px solid RoyalBlue;
+}
+
+.section:nth-child(even) {
+    color: whitesmoke;
+    width: 35%;
+    background-color: CornflowerBlue;
+    margin-bottom: 0;
+    border-left: 0;
+}
+
+.section:nth-child(odd) {
+    margin-left: 5%;
+    transition: 1s;
+}
+
+.section:nth-child(odd):hover {
+    margin-left: 3%;
+}
+
+.section:first-child {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 100px;
+
+    
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: MediumSeaGreen;
+}
+
+
+
+.name-title {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.status {
+    font-size: 36px;
+}
+
+.section-title {
+    font-size: 28px;
+}
+
+.languages-item {
+    position: relative;
+}
+
+.english::before,
+.russian::before,
+.belarussian::before,
+.japanise::before,
+.german::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: -20px;
+    background-image: url(./assets/img/sprite-flags.png);
+    width: 16px;
+    height: 11px;
+}
+
+.english::before {
+    background-position: 0px -11px;
+}
+
+.russian::before {
+    background-position: -32px 0px;
+
+}
+
+.belarussian::before {
+    background-position: 0px 0px;
+
+}
+
+.japanise::before {
+    background-position: -16px -11px;
+}
+
+.german::before {
+    background-position: -16px 0px;
+}
+
+.contacts-item {
+    line-height: 50px;
+    position: relative;
+}
+
+.discord::before,
+.email::before,
+.github::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    top: 5px;
+    left: -40px;
+    background-image: url(./assets/img/sprite-contacts.png);
+    width: 32px;
+    height: 32px;
+}
+
+.discord::before {
+    background-position: 0px 0px;
+}
+
+.email::before {
+    background-position: 0px -32px;
+}
+
+.github::before {
+    background-position: -32px 0px;
+}
+
+.footer {
+    
+    
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: MediumSeaGreen;
+
+}
+
+.footer-contaiter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    line-height: 30px;
+    position: relative;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 1.25s;
+}
+
+.cv-link {
+    color: royalblue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.cv-link:hover {
+    color: LightSkyBlue;
+}
+
+.footer-link::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: -40px;
+    background-image: url(./assets/img/sprite-contacts.png);
+    width: 32px;
+    height: 32px;
+    background-position: -32px 0px;
+}
+
+.courses-item
+{
+    line-height: 30px;
+    position: relative;
+}
+
+.courses-item::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    box-shadow: 0px 0px 0px 5px whitesmoke;
+}
+
+.main-skills-item,
+.little-skills-item {
+    line-height: 30px;
+}
