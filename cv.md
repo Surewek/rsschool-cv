@@ -83,4 +83,4 @@ RGB To Hex Conversion
 + English - A1(A2 in progress)
 + Chinese - A2
 + Russian - Native speaker
-+ Belarussian - Native speaker
++ Belarusian - Native speaker
