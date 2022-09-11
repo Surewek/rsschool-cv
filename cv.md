@@ -76,4 +76,6 @@ RGB To Hex Conversion
 
 ## Education
 
+* fourth-year student of the Belarusian State University of Transport with a degree in Automation, telemechanics and communication for railway transport (information transmission systems)
+
 ## Languages
