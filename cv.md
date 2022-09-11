@@ -13,6 +13,24 @@ I am a fourth-year student of the Belarusian State University of Transport. I am
 
 ## Skills
 
++ HTML
++ CSS
++ JavaScript(ES6+)
++ Figma
++ Git, GitHub
++ Visual Studio Code
+
+
+### I also used the following technologies a little:
+
++ React
++ Scss, sass, Less
++ C, C++, C#, Java, PHP
++ Visual Studio, IntelliJ IDEA, Notepad++
++ Photoshop, Adobe Illustrator
++ Blender, 3DS Max
++ WordPress
+
 ## Code example
 
 ## Couses
