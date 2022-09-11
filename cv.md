@@ -33,6 +33,34 @@ I am a fourth-year student of the Belarusian State University of Transport. I am
 
 ## Code example
 
+**Task:**
+RGB To Hex Conversion
+
+**Code:**
+```
+    function rgb(r, g, b){
+    let result = '';
+
+    function isCorrect(color){
+        if(color > 255) return 255;
+        if(color < 0) return 0;
+        if(color <= 255 && color >= 0) return color;
+    }
+
+    const colorArr = [isCorrect(r), isCorrect(g), isCorrect(b)];
+    
+    colorArr.forEach(elem => {
+        if(elem.toString(16).toUpperCase().length < 2){
+        result += '0' + elem.toString(16).toUpperCase();
+        } else {
+        result += elem.toString(16).toUpperCase();
+        }
+    });
+
+    return result;
+    }
+```
+
 ## Couses
 
 ## Experience
